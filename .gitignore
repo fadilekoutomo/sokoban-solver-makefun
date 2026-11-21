@@ -9,6 +9,8 @@ dist/
 Thumbs.db
 
 # make.fun local work (kit, test outputs) - not part of the entry
-.makefun/
+# (except .makefun/owner.json, the repo's claim file - must be committed)
+.makefun/*
+!.makefun/owner.json
 baseline-out/
 out-my/
