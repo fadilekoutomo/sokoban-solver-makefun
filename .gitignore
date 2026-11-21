@@ -1,0 +1,14 @@
+# Node
+node_modules/
+out/
+dist/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# make.fun local work (kit, test outputs) - not part of the entry
+.makefun/
+baseline-out/
+out-my/
